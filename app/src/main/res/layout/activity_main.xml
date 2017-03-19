@@ -38,6 +38,16 @@
 
     </RadioGroup>
 
+    <Spinner
+        android:id="@+id/toppingSpinner"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/toppings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    </Spinner>
+
     <CheckBox
         android:text="CheckBoxExtraCheese"
         android:layout_width="match_parent"
